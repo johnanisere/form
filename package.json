@@ -2,11 +2,13 @@
   "name": "form",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://johnanisere.github.io/form",
   "dependencies": {
     "axios": "^0.18.0",
     "enzyme": "^3.9.0",
     "enzyme-adapter-react-16": "^1.12.1",
     "fetch-mock": "^7.3.1",
+    "gh-pages": "^2.0.1",
     "localforage": "^1.7.3",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
@@ -25,6 +27,8 @@
     "styled-components": "^4.2.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

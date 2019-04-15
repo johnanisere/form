@@ -1,10 +1,10 @@
 import React from "react";
 import { Provider } from "react-redux";
-import Opportunity from "./compositions/Opportunity";
 import { PersistGate } from "redux-persist/integration/react";
 
 import storage from "./store";
 import Loading from "./components/Loader";
+import Opportunity from "./compositions/Opportunity";
 import ToastContainer from "./components/ToastContainer";
 import ErrorBoundary from "./compositions/ErrorBoundary";
 

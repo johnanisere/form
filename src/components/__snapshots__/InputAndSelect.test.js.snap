@@ -1,0 +1,177 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputAndSelect component renders 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <InputAndSelect
+    id=""
+    name=""
+    onChange={[Function]}
+    required={true}
+    title=""
+    type="text"
+    value=""
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "id": "",
+      "max": undefined,
+      "maxLength": undefined,
+      "min": undefined,
+      "name": "",
+      "onChange": [Function],
+      "required": true,
+      "selected": undefined,
+      "type": "text",
+      "value": "",
+    },
+    "ref": null,
+    "rendered": null,
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "sc-bwzfXH",
+        "isStatic": true,
+        "rules": Array [
+          "
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+  padding: 4px 18px;
+  border: 1px solid #e3e5e7;
+  height: 40px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  &:focus {
+    border-width: 2px !important;
+    border-style: solid !important;
+    border-color: rgb(92, 106, 196) !important;
+    border-image: initial !important;
+    outline: white;
+  }
+",
+        ],
+      },
+      "displayName": "Styled(styled.input)",
+      "foldedComponentIds": Array [
+        "sc-bdVaJa",
+      ],
+      "render": [Function],
+      "styledComponentId": "sc-bwzfXH",
+      "target": "input",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    },
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "id": "",
+        "max": undefined,
+        "maxLength": undefined,
+        "min": undefined,
+        "name": "",
+        "onChange": [Function],
+        "required": true,
+        "selected": undefined,
+        "type": "text",
+        "value": "",
+      },
+      "ref": null,
+      "rendered": null,
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-bwzfXH",
+          "isStatic": true,
+          "rules": Array [
+            "
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+  padding: 4px 18px;
+  border: 1px solid #e3e5e7;
+  height: 40px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  &:focus {
+    border-width: 2px !important;
+    border-style: solid !important;
+    border-color: rgb(92, 106, 196) !important;
+    border-image: initial !important;
+    outline: white;
+  }
+",
+          ],
+        },
+        "displayName": "Styled(styled.input)",
+        "foldedComponentIds": Array [
+          "sc-bdVaJa",
+        ],
+        "render": [Function],
+        "styledComponentId": "sc-bwzfXH",
+        "target": "input",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

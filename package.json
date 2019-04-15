@@ -3,9 +3,26 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "axios": "^0.18.0",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.12.1",
+    "fetch-mock": "^7.3.1",
+    "localforage": "^1.7.3",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "2.1.8"
+    "react-geosuggest": "^2.12.0",
+    "react-inlinesvg": "^0.8.4",
+    "react-redux": "^7.0.2",
+    "react-scripts": "2.1.8",
+    "react-spinners": "^0.5.4",
+    "react-toastify": "^5.0.1",
+    "redux": "^4.0.1",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-mock-store": "^1.5.3",
+    "redux-persist": "^5.10.0",
+    "redux-promise-middleware": "^6.1.0",
+    "redux-thunk": "^2.3.0",
+    "styled-components": "^4.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -21,5 +38,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "react-testing-library": "^6.1.2"
+  }
 }

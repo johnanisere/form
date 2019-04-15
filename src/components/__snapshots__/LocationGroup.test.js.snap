@@ -1,0 +1,357 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LocationGroup component renders 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <LocationGroup
+    name=""
+    onChange={[Function]}
+    required={true}
+    title=""
+    value=""
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <ForwardRef>
+          <span>
+            
+          </span>
+          <strong>
+            <abbr
+              title="required"
+            >
+              *
+            </abbr>
+          </strong>
+        </ForwardRef>,
+        <App
+          initialValue=""
+          name=""
+          onChange={[Function]}
+        />,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <span>
+              
+            </span>,
+            <strong>
+              <abbr
+                title="required"
+              >
+                *
+              </abbr>
+            </strong>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "",
+            },
+            "ref": null,
+            "rendered": "",
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <abbr
+                title="required"
+              >
+                *
+              </abbr>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "*",
+                "title": "required",
+              },
+              "ref": null,
+              "rendered": "*",
+              "type": "abbr",
+            },
+            "type": "strong",
+          },
+        ],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-gZMcBi",
+            "isStatic": true,
+            "rules": Array [
+              "
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  padding-bottom: 6px;
+  color: #212b36;
+  font-size: 14px;
+",
+            ],
+          },
+          "displayName": "Styled(styled.label)",
+          "foldedComponentIds": Array [
+            "sc-iwsKbI",
+          ],
+          "render": [Function],
+          "styledComponentId": "sc-gZMcBi",
+          "target": "label",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "initialValue": "",
+          "name": "",
+          "onChange": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "sc-jTzLTM",
+        "isStatic": false,
+        "rules": Array [
+          "
+  ",
+          [Function],
+          "
+",
+        ],
+      },
+      "displayName": "Styled(styled.article)",
+      "foldedComponentIds": Array [
+        "sc-VigVT",
+      ],
+      "render": [Function],
+      "styledComponentId": "sc-jTzLTM",
+      "target": "article",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    },
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <ForwardRef>
+            <span>
+              
+            </span>
+            <strong>
+              <abbr
+                title="required"
+              >
+                *
+              </abbr>
+            </strong>
+          </ForwardRef>,
+          <App
+            initialValue=""
+            name=""
+            onChange={[Function]}
+          />,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <span>
+                
+              </span>,
+              <strong>
+                <abbr
+                  title="required"
+                >
+                  *
+                </abbr>
+              </strong>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "",
+              },
+              "ref": null,
+              "rendered": "",
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <abbr
+                  title="required"
+                >
+                  *
+                </abbr>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "*",
+                  "title": "required",
+                },
+                "ref": null,
+                "rendered": "*",
+                "type": "abbr",
+              },
+              "type": "strong",
+            },
+          ],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "sc-gZMcBi",
+              "isStatic": true,
+              "rules": Array [
+                "
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  padding-bottom: 6px;
+  color: #212b36;
+  font-size: 14px;
+",
+              ],
+            },
+            "displayName": "Styled(styled.label)",
+            "foldedComponentIds": Array [
+              "sc-iwsKbI",
+            ],
+            "render": [Function],
+            "styledComponentId": "sc-gZMcBi",
+            "target": "label",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          },
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "initialValue": "",
+            "name": "",
+            "onChange": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-jTzLTM",
+          "isStatic": false,
+          "rules": Array [
+            "
+  ",
+            [Function],
+            "
+",
+          ],
+        },
+        "displayName": "Styled(styled.article)",
+        "foldedComponentIds": Array [
+          "sc-VigVT",
+        ],
+        "render": [Function],
+        "styledComponentId": "sc-jTzLTM",
+        "target": "article",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <App />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "autoActivateFirstSuggest": false,
+      "disabled": false,
+      "fixtures": Array [],
+      "getSuggestLabel": [Function],
+      "highlightMatch": true,
+      "ignoreEnter": false,
+      "ignoreTab": false,
+      "initialValue": "",
+      "maxFixtures": 10,
+      "minLength": 1,
+      "onKeyDown": [Function],
+      "onKeyPress": [Function],
+      "onSuggestSelect": [Function],
+      "placeholder": "City",
+      "queryDelay": 250,
+      "skipSuggest": [Function],
+      "style": Object {},
+    },
+    "ref": [Function],
+    "rendered": null,
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "autoActivateFirstSuggest": false,
+        "disabled": false,
+        "fixtures": Array [],
+        "getSuggestLabel": [Function],
+        "highlightMatch": true,
+        "ignoreEnter": false,
+        "ignoreTab": false,
+        "initialValue": "",
+        "maxFixtures": 10,
+        "minLength": 1,
+        "onKeyDown": [Function],
+        "onKeyPress": [Function],
+        "onSuggestSelect": [Function],
+        "placeholder": "City",
+        "queryDelay": 250,
+        "skipSuggest": [Function],
+        "style": Object {},
+      },
+      "ref": [Function],
+      "rendered": null,
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;
